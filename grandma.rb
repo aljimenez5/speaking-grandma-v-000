@@ -4,7 +4,7 @@ def speak_to_grandma(spoken_string)
     return "I LOVE YOU TOO PUMPKIN!"
   elsif spoken_string == spoken_string.upcase
     return "NO, NOT SINCE 1938!"
-  elsifif spoken_string == spoken_string.downcase
+  elsif spoken_string == spoken_string.downcase
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
