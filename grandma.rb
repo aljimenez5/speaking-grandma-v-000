@@ -2,6 +2,7 @@
 def speak_to_grandma(string)
   if string == !string.capitalized
     puts "HUH?! SPEAK UP, SONNY!"
+  elsif string == string.capitalized
   end
 end
   
