@@ -1,11 +1,11 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(spoken_string)
   if spoken_string == spoken_string.downcase
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   elsif spoken_string == spoken_string.upcase
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   elsif spoken_string == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   end
 end
   
